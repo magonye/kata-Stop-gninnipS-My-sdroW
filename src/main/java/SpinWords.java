@@ -3,7 +3,11 @@
  */
 public class SpinWords {
     public String spinWords(String welcome) {
-        return welcome;
+        if (welcome.length()>=5){
+            return new StringBuilder(welcome).reverse().toString();
+        } else {
+            return welcome;
+        }
     }
 
 }

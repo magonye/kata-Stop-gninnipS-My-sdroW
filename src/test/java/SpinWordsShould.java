@@ -11,6 +11,11 @@ public class SpinWordsShould {
         assertEquals("one",new SpinWords().spinWords("one"));
     }
 
+    @Test public void
+    return_a_word_reversed_when_more_than_five_letters(){
+        assertEquals("awesome",new SpinWords().spinWords("emosewa"));
+    }
+
     //@Test
     //public void test() {
     ///    assertEquals("emocleW", new SpinWords().spinWords("Welcome"));
