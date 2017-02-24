@@ -16,10 +16,9 @@ public class SpinWordsShould {
         assertEquals("awesome",new SpinWords().spinWords("emosewa"));
     }
 
-    //@Test
-    //public void test() {
-    ///    assertEquals("emocleW", new SpinWords().spinWords("Welcome"));
-    //    assertEquals("Hey wollef sroirraw", new SpinWords().spinWords("Hey fellow warriors"));
-    //}
-
+    @Test public void
+    return_a_list_of_words_with_reversed_words_when_more_than_five_letters(){
+        assertEquals("Hey wollef sroirraw", new SpinWords().spinWords("Hey fellow warriors"));
+    }
+    
 }
